@@ -72,6 +72,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "fuzzy-filter"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e88dd42064af55b9bd19ea350a7b94f0a5377d334b03d790a26cfd43855e8049"
+
+[[package]]
 name = "getrandom"
 version = "0.2.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -125,6 +131,7 @@ name = "list-apps"
 version = "0.1.0"
 dependencies = [
  "freedesktop-desktop-entry",
+ "fuzzy-filter",
  "json",
 ]
 
